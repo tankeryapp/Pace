@@ -9,11 +9,11 @@ baseurl: '/Pace'
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/compass.png"
+  logo: "/images/icon_pace.png"
   # author will appear under the avatar (optional)
-  author: "Compass"
+  author: "Pace"
   # tagline will appear under the title (optional)
-  tagline: "The <a href='http://jekyllrb.com'>Jekyll</a> theme for your personal landing page"
+  tagline: "Bring music to your steps"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
@@ -21,6 +21,15 @@ compass:
   # be added at the end of the <head> section. You can add your Google Analytics
   # Tracking Code to that file.
   include_analytics: false
+
+# Download configuration
+download:
+  # base dir
+  basedir: "/download"
+  # Android app
+  android:
+    name: "PaceAndroid"
+    version: "v1.0.1b"
 
 # Dependencies
 markdown: kramdown
