@@ -22,6 +22,22 @@ compass:
   # Tracking Code to that file.
   include_analytics: false
 
+# compass configuration for chinese
+cn:
+  # an avatar or logo (optional)
+  logo: "/images/icon_pace.png"
+  # author will appear under the avatar (optional)
+  author: "步伐"
+  # tagline will appear under the title (optional)
+  tagline: "将音乐带入你的脚步"
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  include_content: true
+  # if include_analytics is true, the content of the analytics.html include will
+  # be added at the end of the <head> section. You can add your Google Analytics
+  # Tracking Code to that file.
+  include_analytics: false
+
 # Download configuration
 download:
   # base dir

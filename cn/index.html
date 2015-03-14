@@ -1,0 +1,27 @@
+---
+layout: base
+---
+<div class="wrapper">
+    <header>
+        {% if site.cn.logo %}
+        <div class="logo-container">
+          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.cn.logo }}')"></a>
+        </div>
+        {% endif %}
+
+        {% if site.cn.author %}
+        <div class="author-container"><h1>{{ site.cn.author }}</h1></div>
+        {% endif %}
+
+        {% if site.cn.tagline %}
+        <div class="tagline-container"><p>{{ site.cn.tagline }}</p></div>
+        {% endif %}
+    </header>
+    <main>
+      {% if site.cn.include_content %}
+      <div class="content">
+        {% include content-zh.html %}
+      </div>
+      {% endif %}
+    </main>
+</div>
