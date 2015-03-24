@@ -83,6 +83,11 @@ h6 {
 }
 
 @media(max-width:767px) {
+    .intro-header {
+        background: url(../img/intro-bg.small.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
     .intro-message {
         padding-bottom: 15%;
     }
@@ -170,6 +175,11 @@ h6 {
 }
 
 @media(max-width:767px) {
+    .banner {
+        background: url(../img/banner-bg.small.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
     .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
