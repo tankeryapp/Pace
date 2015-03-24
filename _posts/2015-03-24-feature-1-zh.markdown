@@ -4,7 +4,7 @@ img: ipad.png
 category: [Features, zh]
 title: 简洁
 description: |
-  <p class="lead">I'm trying hard to hide the complexity behind the simple interface of Pace.</p>
-  <p class="lead">With a single click, workout becomes a exciting thing.</p>
+  <p class="lead">开发者竭尽全力将复杂的操作隐藏到简洁的外表下。</p>
+  <p class="lead">只需要一个点击，就能使你枯燥的运动变得激动人心。</p>
 
 ---

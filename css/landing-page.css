@@ -57,6 +57,31 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.btn-frameless {
+    color: #333;
+    background-color: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+}
+
+.intro-header .btn-frameless {
+    color: #f8f8f8;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.btn-frameless:hover, .btn-frameless:focus {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    text-shadow: none;
+}
+
+.btn-lang {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;

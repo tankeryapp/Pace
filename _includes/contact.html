@@ -11,7 +11,7 @@
                 <ul class="list-inline banner-social-buttons">
                     {% for link in page.contact.link %}
                     <li>
-                        <a href="{{ link.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ link.title }} fa-fw"></i> <span class="network-name">{{ link.title }}</span></a>
+                        <a href="{{ link.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ link.title }} fa-fw"></i> <span class="network-name">{{ link.text }}</span></a>
                     </li>
                     {% endfor %}
                 </ul>

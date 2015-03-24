@@ -4,7 +4,7 @@ img: dog.png
 category: [Features, zh]
 title: 精美
 description: |
-  <p class="lead">Beauty is productivity.<p>
-  <p class="lead">With gentle face and smooth animations, I hope Pace can be a product delights you.</p>
+  <p class="lead">美就是生产力！<p>
+  <p class="lead">希望『步伐』那柔和的视觉效果和流畅的动画能为你带去快乐。</p>
 
 ---

@@ -13,12 +13,17 @@
                     <ul class="list-inline intro-social-buttons">
                         {% for link in page.contact.link %}
                         <li>
-                        <a href="{{ link.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ link.title }} fa-fw"></i> <span class="network-name">{{ link.title }}</span></a>
+                        <a href="{{ link.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ link.title }} fa-fw"></i> <span class="network-name">{{ link.text }}</span></a>
                         </li>
                         {% endfor %}
                     </ul>
                     {% endif %}
                 </div>
+                {% if page.translate %}
+                <a href="{{ site.baseurl }}{{ page.translate.url }}" class="btn btn-frameless btn-lg btn-lang">
+                    <i class="fa fa-{{ page.translate.icon }} fa-fw"></i> <span>{{ page.translate.text }}</span>
+                </a>
+                {% endif %}
             </div>
         </div>
 
