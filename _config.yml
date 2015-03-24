@@ -2,13 +2,15 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: Your Awesome Site
-email: your-email@domain.com
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description."
+url: http://app.tankery.me
+baseurl: /pace
+title: Pace
+email: tankery.chen@gmail.com
+author: Tankery Chen
+description: Pace is a music player for runners, that only plays the music matching your pace.
+credits: |
+  Credits:<br/>
+  Made by <a href="https://github.com/swcool/landing-page-theme">Landing Page Jekyll theme</a>.
 
 # ----------------------- #
 #    Jekyll & Plugins     #

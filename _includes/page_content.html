@@ -1,5 +1,7 @@
 <!-- Page Content -->
-{% for post in site.posts reversed %}
+<div id="content">
+{% for post in site.categories.features reversed %}
+  {% if post.categories contains page.lang %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
@@ -47,4 +49,6 @@
     </div>
     <!-- /.content-section-b -->
     {% endif %}
+  {% endif %}
 {% endfor %}
+</div>

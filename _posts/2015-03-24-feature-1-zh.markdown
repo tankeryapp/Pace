@@ -1,0 +1,10 @@
+---
+layout: default
+img: ipad.png
+category: [Features, zh]
+title: 简洁
+description: |
+  <p class="lead">I'm trying hard to hide the complexity behind the simple interface of Pace.</p>
+  <p class="lead">With a single click, workout becomes a exciting thing.</p>
+
+---

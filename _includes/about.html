@@ -1,0 +1,20 @@
+<!-- About -->
+<div class="content-about" id="about" >
+
+    {% if page.about %}
+    <div class="container text-center">
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 lead">
+                <div class="clearfix"></div>
+                <h1 class="section-heading">{{ page.about.title }}</h1>
+                {{ page.about.description }}
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+    {% endif %}
+
+</div>
+<!-- /.content-section-b -->
