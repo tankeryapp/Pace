@@ -1,56 +1,31 @@
-# general configuration
-#
-# Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
-# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url: http://app.tankery.me
-baseurl: '/pace'
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
 
-# compass configuration
-compass:
-  # an avatar or logo (optional)
-  logo: "/images/icon_pace.png"
-  # author will appear under the avatar (optional)
-  author: "Pace"
-  # tagline will appear under the title (optional)
-  tagline: "Bring music to your steps"
-  # if include_content is true, the contents of the content.html include will be
-  # added right above the generated item list, if present
-  include_content: true
-  # if include_analytics is true, the content of the analytics.html include will
-  # be added at the end of the <head> section. You can add your Google Analytics
-  # Tracking Code to that file.
-  include_analytics: false
+url: http://yoursite.com
+title: Your Awesome Site
+email: your-email@domain.com
+description: > # "Write an awesome description for your new site here. 
+  You can edit this line in _config.yml. It will appear in your document 
+  head meta (for Google search results) and in your feed.xml site 
+  description."
 
-# compass configuration for chinese
-cn:
-  # an avatar or logo (optional)
-  logo: "/images/icon_pace.png"
-  # author will appear under the avatar (optional)
-  author: "步伐"
-  # tagline will appear under the title (optional)
-  tagline: "将音乐带入你的脚步"
-  # if include_content is true, the contents of the content.html include will be
-  # added right above the generated item list, if present
-  include_content: true
-  # if include_analytics is true, the content of the analytics.html include will
-  # be added at the end of the <head> section. You can add your Google Analytics
-  # Tracking Code to that file.
-  include_analytics: false
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
 
-# Download configuration
-download:
-  # base dir
-  basedir: "/download"
-  # Android app
-  android:
-    name: "PaceAndroid"
-    version: "v1.0.1b"
-
-# Dependencies
+# Build settings
 markdown: kramdown
-highlighter: pygments
-
-# Permalinks
 permalink: pretty
-relative_permalinks: true
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+  - title: linkedin
+    url: 
