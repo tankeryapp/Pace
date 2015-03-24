@@ -5,12 +5,12 @@
             <div class="col-md-8">
                 <ul class="list-inline">
                     <li>
-                    <a href="#page-top">{{ page.title }}</a>
+                    <a class="page-scroll" href="#page-top">{{ page.title }}</a>
                     </li>
                     {% for nav in page.nav %}
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                    <a href="{{ nav.url }}">{{ nav.title }}</a>
+                    <a class="page-scroll" href="{{ nav.url }}">{{ nav.title }}</a>
                     </li>
                     {% endfor %}
                 </ul>
