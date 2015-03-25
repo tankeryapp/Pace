@@ -2,7 +2,7 @@
 layout: default
 img: phones.png
 category: [Features, zh]
-title: 有内涵
+title: 它，有内涵
 description: |
   <p class="lead">『步伐』能自动分析你的音乐库，能自动识别你的步伐节奏，并选取合适的音乐来激励你。</p>
   <p class="lead">所有这些功能，都无需网络支持，并且工作在后台。</p>

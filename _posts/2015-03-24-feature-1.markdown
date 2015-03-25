@@ -2,7 +2,7 @@
 layout: default
 img: ipad.png
 category: [Features, eng]
-title: Simple
+title: It's Simple
 description: |
   <p class="lead">I'm trying hard to hide the complexity behind the simple interface of Pace.</p>
   <p class="lead">With a single click, workout becomes a exciting thing.</p>

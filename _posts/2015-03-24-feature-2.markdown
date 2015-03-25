@@ -2,7 +2,7 @@
 layout: default
 img: dog.png
 category: [Features, eng]
-title: Beautiful
+title: It's Beautiful
 description: |
   <p class="lead">Beauty is productivity.<p>
   <p class="lead">With gentle face and smooth animations, I hope Pace can be a product delights you.</p>
