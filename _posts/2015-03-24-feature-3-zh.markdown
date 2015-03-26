@@ -1,6 +1,6 @@
 ---
 layout: default
-img: phones.png
+img: left-nav.png
 category: [Features, zh]
 title: 它，有内涵
 description: |

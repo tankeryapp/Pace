@@ -1,6 +1,6 @@
 ---
 layout: default
-img: dog.png
+img: welcome.png
 category: [Features, zh]
 title: 它，精美
 description: |
