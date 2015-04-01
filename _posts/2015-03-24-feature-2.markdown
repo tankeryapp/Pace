@@ -5,6 +5,6 @@ category: [Features, eng]
 title: It's Beautiful
 description: |
   <p class="lead">Beauty is productivity.<p>
-  <p class="lead">With gentle face and smooth animations, I hope Pace can be a product delights you.</p>
+  <p class="lead">With gentle face and smooth animations, I hope Pace can be a product that delights you.</p>
 
 ---

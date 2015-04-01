@@ -4,7 +4,7 @@ img: left-nav.png
 category: [Features, eng]
 title: It's Functional
 description: |
-  <p class="lead">Pace can automatic analyze your music library, detect your pace and select a matching music that motivate you.</p>
+  <p class="lead">Pace can automatic analyze your music library, detect your pace and select a matching song that motivates you.</p>
   <p class="lead">All of this happend offline, background.</p>
 
 ---

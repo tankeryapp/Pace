@@ -4,7 +4,7 @@ img: playing.png
 category: [Features, eng]
 title: It's Simple
 description: |
-  <p class="lead">I'm trying hard to hide the complexity behind the simple interface of Pace.</p>
-  <p class="lead">With a single click, workout becomes a exciting thing.</p>
+  <p class="lead">I'm trying hard to hide the complexity behind the simplicity of Pace.</p>
+  <p class="lead">With a single click, workout becomes an exciting thing.</p>
 
 ---
