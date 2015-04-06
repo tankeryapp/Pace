@@ -1,0 +1,19 @@
+{% for link in page.contact.link %}
+<li>
+{% if link.image %}
+<a href="{{ link.url }}" class="btn-black pc">
+    <img src="{{ site.baseurl }}/img/{{ link.image }}" alt="{{ link.text }}" class="image-btn">
+</a>
+<a href="{% if link.mobileurl %}{{ link.mobileurl }}{% else %}{{ link.url }}{% endif %}" class="btn-black mobile">
+    <img src="{{ site.baseurl }}/img/{{ link.image }}" alt="{{ link.text }}" class="image-btn">
+</a>
+{% else %}
+<a href="{{ link.url }}" class="btn btn-default btn-lg pc">
+    <i class="fa fa-{{ link.title }} fa-fw"></i> <span class="network-name">{{ link.text }}</span>
+</a>
+<a href="{% if link.mobileurl %}{{ link.mobileurl }}{% else %}{{ link.url }}{% endif %}" class="btn btn-default btn-lg mobile">
+    <i class="fa fa-{{ link.title }} fa-fw"></i> <span class="network-name">{{ link.text }}</span>
+</a>
+</li>
+{% endif %}
+{% endfor %}

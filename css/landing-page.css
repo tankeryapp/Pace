@@ -21,6 +21,17 @@ h6 {
     font-weight: 700;
 }
 
+@media(max-width:767px) {
+    .pc {
+        display: none;
+    }
+}
+@media(min-width:767px) {
+    .mobile {
+        display: none;
+    }
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -55,6 +66,26 @@ h6 {
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.btn-black {
+    color: #fafafa;
+    background-color: #000;
+    border-color: #fafafa;
+}
+
+.btn-black:hover, .btn-black:focus {
+    color: #fafafa;
+}
+
+.intro-message .btn-black {
+    width: auto;
+    height: 44px;
+}
+
+.image-btn {
+    height: 100%;
+    width: auto;
 }
 
 .btn-frameless {
