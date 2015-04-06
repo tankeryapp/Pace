@@ -6,5 +6,18 @@ title: It's Functional
 description: |
   <p class="lead">Pace can automatic analyze your music library, detect your pace and select a matching song that motivates you.</p>
   <p class="lead">All of this happend offline, background.</p>
+  <p>
+  FEATURES
+  <ul>
+   <li>Auto analyze your LOCAL music library</li>
+   <li>Auto detect your pace, and select a matching song that motivates you</li>
+   <li>No network needed for music analyzing & pace detecting</li>
+   <li>Working as background service. You can interacting with notification bar without launch the app.</li>
+  </ul>
+
+   NOTE<br>
+   For better experience, you need to download as many songs as possible.<br>
+   But Pace can play preset in App music even your music library is empty.
+  </p>
 
 ---
