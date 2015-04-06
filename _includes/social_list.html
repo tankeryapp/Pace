@@ -12,7 +12,7 @@
     <i class="fa fa-{{ link.title }} fa-fw"></i> <span class="network-name">{{ link.text }}</span>
 </a>
 <a href="{% if link.mobileurl %}{{ link.mobileurl }}{% else %}{{ link.url }}{% endif %}" class="btn btn-default btn-lg mobile">
-    <i class="fa fa-{{ link.title }} fa-fw"></i> <span class="network-name">{{ link.text }}</span>
+    <i class="fa fa-{{ link.title }} fa-fw"></i> <span class="network-name">{% if link.mobiletext %}{{ link.mobiletext }}{% else %}{{ link.text }}{% endif %}</span>
 </a>
 </li>
 {% endif %}
