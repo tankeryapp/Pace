@@ -1,7 +1,7 @@
 ---
 layout: default
 img: welcome.png
-category: [Features, eng]
+category: [features, eng]
 title: It's Beautiful
 description: |
   <p class="lead">Beauty is productivity.<p>

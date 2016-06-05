@@ -1,7 +1,7 @@
 ---
 layout: default
 img: welcome.png
-category: [Features, zh]
+category: [features, zh]
 title: 它，精美
 description: |
   <p class="lead">美就是生产力！<p>

@@ -1,7 +1,7 @@
 ---
 layout: default
 img: playing.png
-category: [Features, eng]
+category: [features, eng]
 title: It's Simple
 description: |
   <p class="lead">I'm trying hard to hide the complexity behind the simplicity of Pace.</p>

@@ -1,7 +1,7 @@
 ---
 layout: default
 img: left-nav.png
-category: [Features, zh]
+category: [features, zh]
 title: 它，有内涵
 description: |
   <p class="lead">『步伐』能自动分析你的音乐库，能自动识别你的步伐节奏，并选取合适的音乐来激励你。</p>

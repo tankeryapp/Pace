@@ -1,7 +1,7 @@
 ---
 layout: default
 img: playing.png
-category: [Features, zh]
+category: [features, zh]
 title: 它，简洁
 description: |
   <p class="lead">开发者竭尽全力将复杂的操作隐藏到简洁的外表下。</p>
